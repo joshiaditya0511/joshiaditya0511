@@ -79,8 +79,8 @@
 
 ## Traceability
 
-*Filled by roadmap agent.*
-
-| Phase | Requirements Covered |
-|-------|---------------------|
-| — | — |
+| Phase | Requirements Covered | Status |
+|-------|---------------------|--------|
+| Phase 1: Scaffold | BIO-01, BIO-02, BIO-03, SOCIAL-01, SOCIAL-02, NOTES-01, NOTES-02, VISUAL-01, VISUAL-03, VISUAL-04, VISUAL-05 | Pending |
+| Phase 2: Header & Stack | HEADER-01, HEADER-02, HEADER-03, STACK-01, STACK-02, STACK-03, STACK-04, STACK-05, STACK-06, VISUAL-02 | Pending |
+| Phase 3: Project Cards | PROJ-01, PROJ-02, PROJ-03, PROJ-04 | Pending |
