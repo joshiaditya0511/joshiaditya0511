@@ -16,9 +16,12 @@
 
 ### Bio & Role (BIO)
 
-- [ ] **BIO-01**: Profile displays bio text: *"Data scientist by title, engineer by habit. I build ML pipelines, ship full-stack products, and head the tech team at a climate NGO."*
-- [ ] **BIO-02**: Bio section includes current role callout — Data Scientist at Revcloud (Alyson AI) and Technical Head at Forengers
-- [ ] **BIO-03**: Bio section is centered and appears immediately below the header
+- [x] **BIO-01
+**: Profile displays bio text: *"Data scientist by title, engineer by habit. I build ML pipelines, ship full-stack products, and head the tech team at a climate NGO."*
+- [x] **BIO-02
+**: Bio section includes current role callout — Data Scientist at Revcloud (Alyson AI) and Technical Head at Forengers
+- [x] **BIO-03
+**: Bio section is centered and appears immediately below the header
 
 ### Tech Stack Badges (STACK)
 
@@ -38,21 +41,29 @@
 
 ### Notes & Resources (NOTES)
 
-- [ ] **NOTES-01**: Profile includes a callout section linking to the DS/ML notes repository (`joshiaditya0511/data-science-notes`) with a short description
-- [ ] **NOTES-02**: Notes callout is visually distinct (badge-style link, not plain text) but secondary to project cards
+- [x] **NOTES-01
+**: Profile includes a callout section linking to the DS/ML notes repository (`joshiaditya0511/data-science-notes`) with a short description
+- [x] **NOTES-02
+**: Notes callout is visually distinct (badge-style link, not plain text) but secondary to project cards
 
 ### Social & Contact (SOCIAL)
 
-- [ ] **SOCIAL-01**: Footer includes badge-style social links: personal website (`adityajoshi.in`), LinkedIn (`joshiaditya0511`), email (`contact@adityajoshi.in`)
-- [ ] **SOCIAL-02**: Social badges use consistent styling (same badge style as rest of profile)
+- [x] **SOCIAL-01
+**: Footer includes badge-style social links: personal website (`adityajoshi.in`), LinkedIn (`joshiaditya0511`), email (`contact@adityajoshi.in`)
+- [x] **SOCIAL-02
+**: Social badges use consistent styling (same badge style as rest of profile)
 
 ### Visual & Polish (VISUAL)
 
-- [ ] **VISUAL-01**: All major sections are centered using `<div align="center">`
+- [x] **VISUAL-01
+**: All major sections are centered using `<div align="center">`
 - [ ] **VISUAL-02**: All SVG/badge backgrounds are transparent — no white halos in either GitHub light or dark theme
-- [ ] **VISUAL-03**: Horizontal rule (`---`) dividers between each major section
-- [ ] **VISUAL-04**: No `style=` attributes on any HTML element (GitHub sanitizer strips them)
-- [ ] **VISUAL-05**: Profile README is scannable end-to-end without scrolling past a wall of content — concise copy, visual hierarchy
+- [x] **VISUAL-03
+**: Horizontal rule (`---`) dividers between each major section
+- [x] **VISUAL-04
+**: No `style=` attributes on any HTML element (GitHub sanitizer strips them)
+- [x] **VISUAL-05
+**: Profile README is scannable end-to-end without scrolling past a wall of content — concise copy, visual hierarchy
 
 ---
 
