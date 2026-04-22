@@ -4,7 +4,7 @@
 
 **Data scientist by title, engineer by habit. I build ML pipelines, ship full-stack products, and head the tech team at a climate NGO.**
 
-🧑‍💻 **Data Scientist** at [Revcloud (Alyson AI)](https://revcloud.com) · **Technical Head** at [Forengers](https://forengers.org)
+🧑‍💻 **Data Scientist** at [Revcloud (Alyson AI)](https://alyson.ai) · **Technical Head** at [Forengers](https://forengers.in)
 
 </div>
 
