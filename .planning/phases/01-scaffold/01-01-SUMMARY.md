@@ -69,7 +69,7 @@ Each task was committed atomically:
 1. **Task 1: Write the README.md static skeleton** - `4a87439` (feat)
 2. **Task 2: Verify all Phase 1 acceptance criteria** - no separate commit (verification-only task, no files modified)
 
-**Plan metadata:** (to be updated with docs commit hash)
+**Plan metadata:** `02f67f9` (docs: complete plan)
 
 ## Files Created/Modified
 
