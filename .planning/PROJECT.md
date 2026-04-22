@@ -12,7 +12,11 @@ A visitor — whether a recruiter or a fellow developer — should immediately u
 
 ### Validated
 
-(None yet — ship to validate)
+- [x] Short personal bio blurb — validated in Phase 1
+- [x] Current role callout: Data Scientist at Revcloud (Alyson AI) + Tech Head at Forengers — validated in Phase 1
+- [x] Social/contact links: Personal website, LinkedIn, Email — validated in Phase 1
+- [x] Notes/resources callout linking to DS/ML notes repo — validated in Phase 1
+- [x] Dark-themed aesthetic (visual baseline rules: centered divs, HR dividers, no style= attributes) — validated in Phase 1
 
 ### Active
 
@@ -77,4 +81,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-21 after initialization*
+*Last updated: 2026-04-23 — Phase 1 complete*
