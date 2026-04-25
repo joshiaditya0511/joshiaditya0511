@@ -1,10 +1,11 @@
 ---
 phase: 2
 slug: header-stack
-status: draft
+status: approved
 shadcn_initialized: false
 preset: none
 created: 2026-04-23
+reviewed_at: 2026-04-25
 ---
 
 # Phase 2 — UI Design Contract: Header & Stack
@@ -380,13 +381,19 @@ User input collected this session: 0 — all decisions were pre-answered by upst
 
 ---
 
+## Visual Focal Point
+
+**Primary visual anchor:** The typing SVG header — top-centered, only animated element in the entire README, and the first element a visitor encounters. All other elements (badges, bio, social links) are static. The header draws the eye and communicates the cycling roles before any text is read.
+
+---
+
 ## Checker Sign-Off
 
-- [ ] Dimension 1 Copywriting: PASS
-- [ ] Dimension 2 Visuals: PASS
-- [ ] Dimension 3 Color: PASS
-- [ ] Dimension 4 Typography: PASS
-- [ ] Dimension 5 Spacing: PASS
-- [ ] Dimension 6 Registry Safety: PASS
+- [x] Dimension 1 Copywriting: PASS
+- [x] Dimension 2 Visuals: FLAG (non-blocking — focal point now declared above)
+- [x] Dimension 3 Color: PASS
+- [x] Dimension 4 Typography: PASS
+- [x] Dimension 5 Spacing: PASS
+- [x] Dimension 6 Registry Safety: PASS
 
-**Approval:** pending
+**Approval:** approved 2026-04-25
