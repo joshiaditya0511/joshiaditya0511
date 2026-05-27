@@ -3,17 +3,17 @@
 
   <h1>Hi, I'm Aditya Joshi</h1>
   <p>
-    <strong>Data Scientist at Revcloud</strong> building ML systems, product features,
-    and useful public projects from Pune, India.
+    <strong>Data Scientist and PM at Revcloud</strong> working across ML systems,
+    full-stack development, system design, and product execution.
   </p>
   <p>
     I like turning messy real-world data into tools people can actually use.
   </p>
 
   <p>
-    <a href="https://www.adityajoshi.in"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-adityajoshi.in-0f172a?style=for-the-badge&logo=firefox-browser&logoColor=white"></a>&nbsp;&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/joshiaditya0511"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-joshiaditya0511-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"></a>&nbsp;&nbsp;&nbsp;
-    <a href="https://www.adityajoshi.in/assets/AdityaJoshiResume.pdf"><img alt="Resume" src="https://img.shields.io/badge/Resume-CV-f97316?style=for-the-badge&logo=readme&logoColor=white"></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.adityajoshi.in"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-adityajoshi.in-0f172a?style=for-the-badge&logo=firefox-browser&logoColor=white"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/joshiaditya0511"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-joshiaditya0511-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.adityajoshi.in/assets/AdityaJoshiResume.pdf"><img alt="Resume" src="https://img.shields.io/badge/Resume-CV-f97316?style=for-the-badge&logo=readme&logoColor=white"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="mailto:contact@adityajoshi.in"><img alt="Email" src="https://img.shields.io/badge/Email-contact%40adityajoshi.in-334155?style=for-the-badge&logo=gmail&logoColor=white"></a>
   </p>
 </div>
@@ -22,7 +22,7 @@
 
 ## 🚀 What I'm Building
 
-I work on the Experiments Manager for [Alyson AI](https://alyson.ai) at Revcloud, where the work moves across product engineering, ML pipelines, model development, forecasting, and the unglamorous but important bits that make systems reliable. I also coordinate a small group of developers and ML engineers, which means I spend a lot of time translating fuzzy product needs into shippable technical work.
+I work on the Experiments Manager for [Alyson AI](https://alyson.ai) at Revcloud, where my role sits across system design, full-stack development, ML pipelines, model development, and forecasting. I also coordinate a small group of developers and ML engineers, so a lot of my day-to-day is about turning product goals into clear technical plans and shippable work.
 
 Outside work, I head the tech team at [Forengers Foundation](https://www.forengers.in), a climate-action NGO in Pune. I maintain web systems, build internal automations, and shipped a digital certification platform where each issued credential gets its own unique URL.
 
@@ -34,10 +34,10 @@ Outside work, I head the tech team at [Forengers Foundation](https://www.forenge
   <tr>
     <td width="50%" valign="top">
       <a href="https://pune.adityajoshi.in">
-        <img src="assets/puneprop-predict.png" alt="PuneProp Predict preview" width="100%" />
+        <img src="assets/puneprop-predict.png" alt="PuneHousing.in preview" width="100%" />
       </a>
-      <h3>🏠 PuneProp Predict</h3>
-      <p><strong>ML App · Browser-side inference · Real estate data</strong></p>
+      <h3>🏠 <a href="https://pune.adityajoshi.in">PuneHousing.in</a></h3>
+      <p><strong>ML app · Browser-side inference · Real estate data</strong></p>
       <p>Price prediction and similar-property recommendations for Pune housing, built from 30k+ scraped listings.</p>
       <p>
         <img alt="LightGBM" src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square">
@@ -46,20 +46,19 @@ Outside work, I head the tech team at [Forengers Foundation](https://www.forenge
         <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white">
       </p>
       <p>
-        <strong>Highlights:</strong> R<sup>2</sup> around 0.93, median APE around 11%,
-        ONNX models running directly in the browser.
+        <strong>Highlights:</strong> the price prediction and recommendation system both run fully in the browser using ONNX, with no backend API needed for ML inference.
       </p>
       <p>
-        <a href="https://pune.adityajoshi.in">Live app</a> ·
-        <a href="https://github.com/joshiaditya0511/pune-house-price-prediction">Code</a>
+        <a href="https://pune.adityajoshi.in"><img alt="Visit Website" src="https://img.shields.io/badge/Visit_Website-0f172a?style=for-the-badge&logo=vercel&logoColor=white"></a>
+        <a href="https://github.com/joshiaditya0511/pune-house-price-prediction"><img alt="Code" src="https://img.shields.io/badge/Code-334155?style=for-the-badge&logo=github&logoColor=white"></a>
       </p>
     </td>
     <td width="50%" valign="top">
       <a href="https://kea.adityajoshi.in">
         <img src="assets/karnataka-elections-analysis.jpg" alt="Karnataka Elections Analysis preview" width="100%" />
       </a>
-      <h3>🗳️ Karnataka Elections Analysis</h3>
-      <p><strong>Data Analysis · OCR pipeline · Interactive storytelling</strong></p>
+      <h3>🗳️ <a href="https://kea.adityajoshi.in">Karnataka Elections Analysis</a></h3>
+      <p><strong>Data analysis · OCR pipeline · Interactive storytelling</strong></p>
       <p>Interactive analysis of Karnataka Assembly elections across vote counts, margins, candidates, and electoral trends.</p>
       <p>
         <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
@@ -72,8 +71,8 @@ Outside work, I head the tech team at [Forengers Foundation](https://www.forenge
         Plotly.js, Flourish Studio, AWS EC2, NGINX.
       </p>
       <p>
-        <a href="https://kea.adityajoshi.in">Live site</a> ·
-        <a href="https://github.com/joshiaditya0511/karnataka-election-analysis">Code</a>
+        <a href="https://kea.adityajoshi.in"><img alt="Visit Website" src="https://img.shields.io/badge/Visit_Website-0f172a?style=for-the-badge&logo=vercel&logoColor=white"></a>
+        <a href="https://github.com/joshiaditya0511/karnataka-election-analysis"><img alt="Code" src="https://img.shields.io/badge/Code-334155?style=for-the-badge&logo=github&logoColor=white"></a>
       </p>
     </td>
   </tr>
@@ -82,7 +81,7 @@ Outside work, I head the tech team at [Forengers Foundation](https://www.forenge
       <a href="https://walmart.adityajoshi.in">
         <img src="assets/walmart-sales-forecasting.png" alt="Walmart Sales Analysis and Forecasting preview" width="100%" />
       </a>
-      <h3>📈 Walmart Sales Forecasting</h3>
+      <h3>📈 <a href="https://walmart.adityajoshi.in">Walmart Sales Forecasting</a></h3>
       <p><strong>Time series · Forecasting · Retail analytics</strong></p>
       <p>Analysis and forecasting project exploring weekly sales, holiday effects, store-level patterns, and future demand.</p>
       <p>
@@ -95,15 +94,15 @@ Outside work, I head the tech team at [Forengers Foundation](https://www.forenge
         notebook-to-site publishing, and practical business interpretation.
       </p>
       <p>
-        <a href="https://walmart.adityajoshi.in">Live site</a> ·
-        <a href="https://github.com/joshiaditya0511/walmart-sales-forecasting">Code</a>
+        <a href="https://walmart.adityajoshi.in"><img alt="Visit Website" src="https://img.shields.io/badge/Visit_Website-0f172a?style=for-the-badge&logo=vercel&logoColor=white"></a>
+        <a href="https://github.com/joshiaditya0511/walmart-sales-forecasting"><img alt="Code" src="https://img.shields.io/badge/Code-334155?style=for-the-badge&logo=github&logoColor=white"></a>
       </p>
     </td>
     <td width="50%" valign="top">
       <a href="https://www.adityajoshi.in">
         <img src="assets/personal-website.jpg" alt="Personal website preview" width="100%" />
       </a>
-      <h3>🌐 Personal Website</h3>
+      <h3>🌐 <a href="https://www.adityajoshi.in">Personal Website</a></h3>
       <p><strong>Portfolio · Project writing · Public home base</strong></p>
       <p>A clean personal site collecting my projects, resume, resources, and ways to reach me.</p>
       <p>
@@ -116,7 +115,7 @@ Outside work, I head the tech team at [Forengers Foundation](https://www.forenge
         and a public surface for work I want people to find.
       </p>
       <p>
-        <a href="https://www.adityajoshi.in">Website</a>
+        <a href="https://www.adityajoshi.in"><img alt="Visit Website" src="https://img.shields.io/badge/Visit_Website-0f172a?style=for-the-badge&logo=firefox-browser&logoColor=white"></a>
       </p>
     </td>
   </tr>
@@ -190,7 +189,7 @@ I maintain a growing set of data science and machine learning notes: digital not
 
 ## 🌿 A Bit More Human
 
-Before data science, I studied chemical engineering and spent a year on a BAJA SAE team designing ATV brake components with SolidWorks, Ansys, and plenty of hands-on manufacturing chaos. That experience still shapes how I think: build the thing, test the thing, make the thing less fragile.
+Before data science, I studied chemical engineering and spent a year on a BAJA SAE team designing ATV brake components with SolidWorks, Ansys, and plenty of hands-on manufacturing chaos. That experience shaped how I think about constraints, teamwork, practical design, and solving problems with whatever information is actually available.
 
 Away from the laptop, I play badminton, take mildly excessive notes, and make enthusiastic attempts at wooden staff spinning and pretend sword-fighting. Some hobbies should probably stay hobbies. The notes, thankfully, became [public DS/ML resources](https://www.adityajoshi.in/#resources).
 
