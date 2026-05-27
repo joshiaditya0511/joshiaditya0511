@@ -1,0 +1,162 @@
+\begin{document}
+    
+    \section{Experience}
+
+        \begin{twocolentry}{            
+        \text{Aug 2025 - Present}}
+        
+            \textbf{Data Scientist},
+            \textit{Revcloud}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Work on the Experiments Manager on our Alyson AI product (\href{https://alyson.ai}{alyson.ai}): product development across frontend and backend, system design, ML pipelines, and model development.
+                \item Act as sub-lead on the Experiments Team; coordinate a small group of developers and ML engineers on what to build and how.
+                \item Build and maintain ML models for lead conversion and revenue forecasting, deployed on AWS SageMaker; scored leads feed the internal Lead Gen team's strategic decisions.
+                \item Day-to-day use of AI coding tools like Claude Code and Lovable.dev for rapid development.
+                \item Tools \& Technologies: Python, AWS (SageMaker, Lambda, EC2, RDS, EventBridge), Postgres, SQL, JavaScript
+            \end{highlights}
+        \end{onecolentry}
+
+\vspace{0.2 cm}
+    
+        \begin{twocolentry}{            
+        \text{Oct 2023 – Jun 2024}}
+        
+            \textbf{Software Engineering Intern},
+            \textit{Oriole Labs} (\href{https://www.adityajoshi.in/assets/AdityaJoshiInternshipLetter.pdf}{Internship Certificate})
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Developed interactive analytical dashboards from scratch for the company’s HR management SaaS platform, enhancing data visualization, user engagement, and overall usability.
+                \item Built advanced ETL workflows and implemented robust backend services (including SQL stored procedures), optimizing data handling, accelerating analytics, and enabling seamless API integration.
+                \item Implemented custom click-event functionalities within dashboards for hierarchical data exploration, empowering deeper analytical insights and granular data drill-down.
+                \item Researched and prototyped an offline face-recognition system using open-source models (FaceNet, MobileFaceNet); achieved a 72\% model size reduction via post-training quantization, reducing internet dependency for attendance verification.       
+                \item Tools \& Technologies: Python, FastAPI, Pandas, JavaScript, HTML, Bootstrap, Plotly.js, SQL Server
+            \end{highlights}
+        \end{onecolentry}
+
+\vspace{0.2 cm}
+        
+        \begin{twocolentry}{            
+        \text{Mar 2024 - Present}}
+        
+            \textbf{Technical Head},
+            \textit{Forengers Foundation (NGO)}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Supervise Tech Team projects, including \href{https://www.forengers.in}{website} maintenance, development of new website features and sensitive automation, to ensure code integrity, data security, and feature development.
+                \item Built and shipped an in-house digital certification system at \href{https://cert.forengers.in}{cert.forengers.in} where each issued credential renders at its own unique URL (example: \href{https://cert.forengers.in/etc/zoh-nag-url}{https://cert.forengers.in/etc/zoh-nag-url}); also developed and maintain Google Apps Script automation for file access management across multiple Google Drives (100+ users).
+            \end{highlights}
+        \end{onecolentry}
+ 
+
+    \section{Education}
+
+        \begin{twocolentry}{
+            
+        \textit{Jun 2018 – May 2022}}
+            \textbf{Sinhgad College of Engineering, Pune (affiliated to SPPU)}, \textit{B.E. in Chemical Engineering}
+        \end{twocolentry}
+
+        \vspace{0.05 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item CGPA: 8.78/10 (\href{https://www.adityajoshi.in/static/AdityaJoshiUniversityTranscripts.pdf}{Transcripts})
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+        \textit{Jul 2016 – May 2018}}
+            \textbf{Dr. Kalmadi Shamrao Junior College}, \textit{Higher Secondary Certificate (Maharashtra State Board)}
+        \end{twocolentry}
+
+        \vspace{0.05 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Overall score - 75.54\%, Maths - 100/100 (\href{https://www.adityajoshi.in/static/AdityaJoshiHSCPassingCertificate.pdf}{Passing Certificate/Marksheet})
+            \end{highlights}
+        \end{onecolentry}
+
+
+    \section{Certifications and Licenses}
+
+            \begin{twocolentry}{            
+        \text{July 2025}}
+        
+            \textbf{Executive Post Graduate Certification in Data Science and AI},
+            \textit{from IIT-Roorkee}
+            (\href{https://tih.iitr.ac.in/certificate/intellipaat/IPTIH25070901.png}{View Credential})
+        \end{twocolentry}
+
+    
+    \section{Projects}
+
+        \begin{twocolentry}{
+        \text{\textit{\href{https://pune.adityajoshi.in/?utm_source=resume}{Website}}   |  \textit{\href{https://github.com/joshiaditya0511/pune-house-price-prediction}{GitHub}}}}
+            \textbf{A Zero-backend House Price Prediction and Recommendation Web-app} (\href{https://www.punehousing.in}{punehousing.in})
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item End-to-end ML system for Pune house price prediction (LightGBM, R² \( \approx 0.93 \), Median APE \( \approx 11 \% \)) and similar-property recommendations, built on 30k+ Selenium-scraped listings.
+                \item Shipped two deployment architectures: a containerized FastAPI backend on AWS EC2 with Nginx, and a zero-backend version running ONNX models client-side in the browser.
+                \item Delivered a responsive Astro/React frontend on Vercel with CI/CD.
+                \item Tools \& Tech: Python, Pandas, Scikit-learn, LightGBM, ONNX, FastAPI, Docker, AWS EC2, Nginx, Selenium, Astro.js, React, Vercel
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        
+        \begin{twocolentry}{
+        \text{\textit{\href{https://kea.adityajoshi.in/?utm_source=resume}{Website}}   |  \textit{\href{https://github.com/joshiaditya0511/karnataka-election-analysis}{GitHub}}}}
+            \textbf{Karnataka Elections Data Analysis} (\href{https://kea.adityajoshi.in}{kea.adityajoshi.in})
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Built a data pipeline processing 57k+ PDFs using web scraping (Requests, BeautifulSoup, Selenium) and OCR (PyPDF2, TesseractOCR); cut categorization costs 50\% by switching to OpenAI’s Batch API (GPT-4o-mini) over the Real-time API.
+                \item Built and deployed interactive visualizations (Plotly.js, Flourish Studio) revealing vote counts, margins, and other insights; hosted on AWS EC2 with NGINX.
+                \item Tools \& Tech: Python, Pandas, Selenium, PyPDF2, TesseractOCR, OpenAI Batch API, Plotly.js, AWS EC2, NGINX, JavaScript.
+            \end{highlights}
+        \end{onecolentry}
+    
+  \section{Skills}
+
+    \begin{onecolentry}
+        \textbf{Programming Languages:} Python, SQL, JavaScript, C++
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \begin{onecolentry}
+        \textbf{Frameworks \& Libraries:} FastAPI, React, Astro, Pandas, Scikit-learn, ONNX, Plotly.js, Selenium
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \begin{onecolentry}
+        \textbf{Tools \& Platforms:} Docker, AWS (EC2, SageMaker, Lambda), Git, SQL Server, Nginx, Vercel
+    \end{onecolentry}
+
+    
+    \section{Awards and Achievements}
+
+        \begin{onecolentry}
+            \textbf{Maths Topper (2018):} Awarded by the college for scoring a perfect 100/100 in Mathematics in the HSC Class 12 exams.
+        \end{onecolentry}
+
+\end{document}
