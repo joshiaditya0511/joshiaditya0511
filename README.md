@@ -129,37 +129,53 @@ Outside work, I head the tech team at [Forengers Foundation](https://www.forenge
 
 ## 📚 Notes & Resources
 
-I maintain a growing set of data science and machine learning notes: digital notes, handwritten material, notebooks, references, and the kind of “future me will thank present me” explanations that slowly turn into a resource library.
+I maintain a growing set of data science and machine learning notes: digital notes, handwritten material, notebooks, references, and the kind of “future me will thank present me” explanations that slowly turn into a resource library. The preview below is meant to represent the whole notes library.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="52%" valign="top">
       <a href="https://github.com/joshiaditya0511/data-science-notes">
-        <img src="assets/notes-ml.png" alt="Machine learning notes placeholder" width="100%" />
+        <img src="assets/notes-preview.gif" alt="Animated preview placeholder for Aditya's notes library" width="100%" />
       </a>
-      <h3>🧠 Machine Learning Notes</h3>
-      <p>Concept notes, model intuition, statistics, experiments, and notebook links.</p>
-      <p>
-        <a href="https://github.com/joshiaditya0511/data-science-notes">Notes repo</a> ·
-        <a href="https://www.adityajoshi.in/#resources">Resources page</a>
-      </p>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/joshiaditya0511/data-science-notes">
-        <img src="assets/notes-sql.png" alt="SQL and databases notes placeholder" width="100%" />
-      </a>
-      <h3>🗃️ SQL & Databases Notes</h3>
-      <p>Query practice, relational concepts, database fundamentals, and structured references.</p>
-      <p>
-        <a href="https://github.com/joshiaditya0511/data-science-notes">Notes repo</a> ·
-        <a href="https://www.adityajoshi.in/#resources">Resources page</a>
-      </p>
+    <td width="48%" valign="top">
+      <h3>🧠 Notes Library</h3>
+      <table>
+        <tr>
+          <th align="left">Topic</th>
+          <th align="left">Link</th>
+        </tr>
+        <tr>
+          <td>Machine Learning</td>
+          <td><a href="https://docs.google.com/document/d/1rMXRlFJ5mDAzik4ipsySVFBUsI54E0NXocDhOct3YNM/edit?usp=sharing">View notes</a></td>
+        </tr>
+        <tr>
+          <td>Statistics</td>
+          <td><a href="https://docs.google.com/document/d/1Q2zwoGjBX1Vpa7bEWAOyzZJTJDtmfT8I-YEgkSQCBsQ/edit?usp=sharing">View notes</a></td>
+        </tr>
+        <tr>
+          <td>Databases and SQL</td>
+          <td><a href="https://docs.google.com/document/d/1sZOzI4v6-H8X5PJZgeBQFqkwPOBCZhqDPH52HqKDCQI/edit?usp=sharing">View notes</a></td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td><a href="https://docs.google.com/document/d/1z_m8OYimE4HswM4zOeZxDfJ-jmUXtI8WJpSGKUMU1QY/edit?usp=sharing">View notes</a></td>
+        </tr>
+        <tr>
+          <td>Full notes repository</td>
+          <td><a href="https://github.com/joshiaditya0511/data-science-notes">Open repo</a></td>
+        </tr>
+        <tr>
+          <td>Resources page</td>
+          <td><a href="https://www.adityajoshi.in/#resources">Open page</a></td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <sub>Notes screenshot convention: replace placeholders with <strong>1200 x 800 px</strong> images named <code>assets/notes-ml.png</code> and <code>assets/notes-sql.png</code>.</sub>
+  <sub>Notes preview convention: replace the placeholder with a <strong>1200 x 800 px</strong> GIF named <code>assets/notes-preview.gif</code>.</sub>
 </p>
 
 ---
