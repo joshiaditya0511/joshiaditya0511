@@ -36,7 +36,7 @@ These days that looks like:
 <table>
   <tr>
     <td width="56%" valign="middle">
-      <a href="https://www.punehousing.in"><img src="assets/puneprop-predict.png" alt="Pune Housing Price Prediction web app showing the property price predictor form" width="100%"></a>
+      <a href="https://www.punehousing.in"><img src="assets/demo-punehousing.webp" alt="Demo: getting a price estimate and similar-property recommendations on the Pune Housing web app" width="100%"></a>
     </td>
     <td width="44%" valign="top">
       <h3>🏠 Pune Housing Price Prediction</h3>
@@ -70,7 +70,7 @@ These days that looks like:
       </p>
     </td>
     <td width="56%" valign="middle">
-      <a href="https://kea.adityajoshi.in"><img src="assets/karnataka-elections-analysis.jpg" alt="Karnataka Elections Analysis site showing a parliamentary seat chart" width="100%"></a>
+      <a href="https://kea.adityajoshi.in"><img src="assets/demo-kea.webp" alt="Demo: browsing the interactive charts on the Karnataka Elections Analysis site" width="100%"></a>
     </td>
   </tr>
 </table>
@@ -78,7 +78,7 @@ These days that looks like:
 <table>
   <tr>
     <td width="56%" valign="middle">
-      <a href="https://walmart.adityajoshi.in"><img src="assets/walmart-sales-forecasting.png" alt="Walmart Sales Analysis and Forecasting notebook site with sales charts" width="100%"></a>
+      <a href="https://walmart.adityajoshi.in"><img src="assets/demo-walmart.webp" alt="Demo: scrolling through the Walmart sales analysis and forecasting notebook site" width="100%"></a>
     </td>
     <td width="44%" valign="top">
       <h3>📈 Walmart Sales Analysis and Forecasting</h3>
