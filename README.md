@@ -35,10 +35,10 @@ These days that looks like:
 
 <table>
   <tr>
-    <td width="46%" valign="middle">
+    <td width="56%" valign="middle">
       <a href="https://www.punehousing.in"><img src="assets/puneprop-predict.png" alt="Pune Housing Price Prediction web app showing the property price predictor form" width="100%"></a>
     </td>
-    <td width="54%" valign="top">
+    <td width="44%" valign="top">
       <h3>🏠 Pune Housing Price Prediction</h3>
       <p><code>Machine Learning</code> <code>Recommendations</code> <code>Web Scraping</code></p>
       <p>A zero-backend web app that predicts house prices in Pune and recommends similar properties.</p>
@@ -52,8 +52,11 @@ These days that looks like:
       </p>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
-    <td width="54%" valign="top">
+    <td width="44%" valign="top">
       <h3>🗳️ Karnataka Elections Data Analysis</h3>
       <p><code>Data Analysis</code> <code>Web Scraping</code> <code>OCR</code></p>
       <p>An interactive look at the Karnataka Assembly elections: vote counts, candidates, margins and the Bharat Jodo Yatra's effect.</p>
@@ -66,15 +69,18 @@ These days that looks like:
         <a href="https://github.com/joshiaditya0511/karnataka-election-analysis"><img alt="Code on GitHub" src="https://img.shields.io/badge/Code-1F883D?style=for-the-badge&logo=github&logoColor=white" height="32"></a>
       </p>
     </td>
-    <td width="46%" valign="middle">
+    <td width="56%" valign="middle">
       <a href="https://kea.adityajoshi.in"><img src="assets/karnataka-elections-analysis.jpg" alt="Karnataka Elections Analysis site showing a parliamentary seat chart" width="100%"></a>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
-    <td width="46%" valign="middle">
+    <td width="56%" valign="middle">
       <a href="https://walmart.adityajoshi.in"><img src="assets/walmart-sales-forecasting.png" alt="Walmart Sales Analysis and Forecasting notebook site with sales charts" width="100%"></a>
     </td>
-    <td width="54%" valign="top">
+    <td width="44%" valign="top">
       <h3>📈 Walmart Sales Analysis and Forecasting</h3>
       <p><code>Time Series</code> <code>Data Analysis</code> <code>Forecasting</code></p>
       <p>Time series analysis and forecasting of Walmart's weekly store sales.</p>
