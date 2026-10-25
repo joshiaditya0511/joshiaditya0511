@@ -17,8 +17,6 @@ THEMES = {
         "border": "#d0d7de",
         "surface": "#f6f8fa",
         "accent": "#bc4c00",
-        "win": "#1a7f37",
-        "win_soft": "#dafbe1",
     },
     "dark": {
         "text": "#e6edf3",
@@ -26,8 +24,6 @@ THEMES = {
         "border": "#3d444d",
         "surface": "#151b23",
         "accent": "#f0883e",
-        "win": "#3fb950",
-        "win_soft": "#12261e",
     },
 }
 
@@ -35,70 +31,47 @@ SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, A
 MONO = "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace"
 
 
-def page_card(x, y, label, c, winner=False):
-    """A small landing-page skeleton, one of the variants traffic is routed to."""
-    stroke = c["win"] if winner else c["border"]
-    fill = c["win_soft"] if winner else c["surface"]
-    width = 2.5 if winner else 1.5
-    check = ""
-    if winner:
-        check = (
-            f'<circle cx="{x + 100}" cy="{y}" r="12" fill="{c["win"]}"/>'
-            f'<path d="M{x + 94} {y} l4 4 l8 -8" fill="none" stroke="#ffffff" '
-            f'stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'
-        )
-    return f"""
-    <g class="{'winner' if winner else ''}">
-      <rect x="{x}" y="{y}" width="100" height="62" rx="8" fill="{fill}" stroke="{stroke}" stroke-width="{width}"/>
-      <rect x="{x + 12}" y="{y + 12}" width="44" height="7" rx="3.5" fill="{c['muted']}" opacity="0.7"/>
-      <rect x="{x + 12}" y="{y + 27}" width="76" height="5" rx="2.5" fill="{c['border']}"/>
-      <rect x="{x + 12}" y="{y + 38}" width="60" height="5" rx="2.5" fill="{c['border']}"/>
-      <text x="{x + 88}" y="{y + 54}" text-anchor="end" font-family="{MONO}" font-size="13" font-weight="700" fill="{stroke if winner else c['muted']}">{label}</text>
-      {check}
-    </g>"""
-
-
 def banner(c):
-    # Router graphic: visitors flow in, the router splits them across page
-    # variants, and most traffic ends up on the winning page (B).
-    src_y = 175
-    router = (700, 150, 80, 50)
-    cards = {"A": 72, "B": 144, "C": 216}
-    rx, ry, rw, rh = router
-
-    wires = "".join(
-        f'<path d="M{rx + rw} {src_y} C{rx + rw + 45} {src_y} {rx + rw + 35} {cy + 31} 850 {cy + 31}" '
-        f'fill="none" stroke="{c["win"] if label == "B" else c["border"]}" stroke-width="{2 if label == "B" else 1.5}"/>'
-        for label, cy in cards.items()
+    # Right side: a small terminal card that says what I do and what I'm building.
+    x, y, w, h = 575, 56, 385, 238
+    lines = [
+        ("cmd", "whoami"),
+        ("out", "product manager @ revcloud"),
+        ("cmd", "cat now.txt"),
+        ("out", "building alyson.ai, which tests"),
+        ("out", "landing pages on live traffic"),
+        ("cmd", ""),
+    ]
+    body = ""
+    for i, (kind, text) in enumerate(lines):
+        ly = y + 66 + i * 30
+        delay = 0.3 + i * 0.35
+        if kind == "cmd":
+            body += (
+                f'<text class="line" style="animation-delay:{delay:.2f}s" x="{x + 22}" y="{ly}" font-family="{MONO}" font-size="16">'
+                f'<tspan fill="{c["accent"]}" font-weight="700">$ </tspan><tspan fill="{c["text"]}">{text}</tspan></text>'
+            )
+        else:
+            body += (
+                f'<text class="line" style="animation-delay:{delay:.2f}s" x="{x + 22}" y="{ly}" font-family="{MONO}" font-size="16" fill="{c["muted"]}">{text}</text>'
+            )
+    cursor_y = y + 66 + (len(lines) - 1) * 30
+    cursor = f'<rect class="cursor" x="{x + 42}" y="{cursor_y - 14}" width="9" height="18" fill="{c["accent"]}"/>'
+    dots = "".join(
+        f'<circle cx="{x + 20 + i * 18}" cy="{y + 18}" r="5.5" fill="{color}"/>'
+        for i, color in enumerate(("#ff5f57", "#febc2e", "#28c840"))
     )
-
-    # (path, begin offset in seconds): B gets most of the traffic.
-    dot_plan = [("B", 0), ("A", 0.6), ("B", 1.2), ("C", 1.8), ("B", 2.4), ("B", 3.0)]
-    dots = ""
-    for label, begin in dot_plan:
-        d = (
-            f"M600 {src_y} L{rx + rw} {src_y} "
-            f"C{rx + rw + 45} {src_y} {rx + rw + 35} {cards[label] + 31} 850 {cards[label] + 31}"
-        )
-        color = c["win"] if label == "B" else c["accent"]
-        dots += f"""
-      <circle class="dot" r="4.5" fill="{color}" opacity="0">
-        <animateMotion dur="3.6s" begin="{begin}s" repeatCount="indefinite" path="{d}"/>
-        <animate attributeName="opacity" dur="3.6s" begin="{begin}s" repeatCount="indefinite"
-                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
-      </circle>"""
-
-    cards_svg = "".join(page_card(850, cy, label, c, winner=(label == "B")) for label, cy in cards.items())
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-labelledby="title desc">
   <title id="title">Aditya Joshi</title>
-  <desc id="desc">Product Manager by day. AI builder by habit. Product Manager at Revcloud, building Alyson AI. Illustration: website visitors flow through a traffic router to three landing page variants, and most traffic lands on the winning page.</desc>
+  <desc id="desc">Product Manager by day. AI builder by habit. A terminal card reads: whoami, product manager at Revcloud; now, building alyson.ai, which tests landing pages on live traffic.</desc>
   <style>
-    .winner {{ animation: glow 3.6s ease-in-out infinite; }}
-    @keyframes glow {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0.82; }} }}
+    .line {{ animation: type-in 0.4s ease-out both; }}
+    .cursor {{ animation: blink 1.1s steps(1) infinite; }}
+    @keyframes type-in {{ from {{ opacity: 0; transform: translateX(-6px); }} to {{ opacity: 1; transform: none; }} }}
+    @keyframes blink {{ 50% {{ opacity: 0; }} }}
     @media (prefers-reduced-motion: reduce) {{
-      .dot {{ display: none; }}
-      .winner {{ animation: none; }}
+      .line, .cursor {{ animation: none; }}
     }}
   </style>
 
@@ -108,13 +81,12 @@ def banner(c):
   <text x="40" y="258" font-family="{SANS}" font-size="31" fill="{c['muted']}">AI builder by habit.</text>
 
   <g>
-    <text x="600" y="{src_y - 16}" font-family="{MONO}" font-size="13" fill="{c['muted']}">visitors</text>
-    <path d="M600 {src_y} L{rx} {src_y}" fill="none" stroke="{c['border']}" stroke-width="1.5" stroke-dasharray="4 5"/>
-    {wires}
+    <rect x="{x}" y="{y}" width="{w}" height="{h}" rx="12" fill="{c['surface']}" stroke="{c['border']}" stroke-width="1.5"/>
+    <path d="M{x} {y + 36} H{x + w}" stroke="{c['border']}" stroke-width="1.5"/>
     {dots}
-    <rect x="{rx}" y="{ry}" width="{rw}" height="{rh}" rx="10" fill="{c['surface']}" stroke="{c['accent']}" stroke-width="2"/>
-    <text x="{rx + rw / 2}" y="{ry + 30}" text-anchor="middle" font-family="{MONO}" font-size="14" font-weight="600" fill="{c['accent']}">router</text>
-    {cards_svg}
+    <text x="{x + w / 2 + 20}" y="{y + 23}" text-anchor="middle" font-family="{MONO}" font-size="13" fill="{c['muted']}">aditya@pune: ~</text>
+    {body}
+    {cursor}
   </g>
 </svg>
 """
@@ -126,7 +98,7 @@ def stats(c):
         ("$175K+", "in revenue", "from internal lead gen"),
         ("Jun '26", "promoted to PM", "from Data Scientist"),
     ]
-    w, h, gap = 280, 180, 30
+    w, h, gap = 276, 130, 24
     x0 = (900 - (3 * w + 2 * gap)) / 2
     body = ""
     for i, (big, label, sub) in enumerate(tiles):
@@ -134,13 +106,13 @@ def stats(c):
         body += f"""
   <g>
     <rect x="{x}" y="10" width="{w}" height="{h}" rx="14" fill="{c['surface']}" stroke="{c['border']}" stroke-width="1.5"/>
-    <rect x="{x + 24}" y="34" width="28" height="5" rx="2.5" fill="{c['accent']}"/>
-    <text x="{x + 24}" y="98" font-family="{SANS}" font-size="50" font-weight="700" fill="{c['text']}">{big}</text>
-    <text x="{x + 24}" y="136" font-family="{SANS}" font-size="24" font-weight="600" fill="{c['text']}">{label}</text>
-    <text x="{x + 24}" y="166" font-family="{SANS}" font-size="18" fill="{c['muted']}">{sub}</text>
+    <rect x="{x + 22}" y="28" width="24" height="4" rx="2" fill="{c['accent']}"/>
+    <text x="{x + 22}" y="74" font-family="{SANS}" font-size="38" font-weight="700" fill="{c['text']}">{big}</text>
+    <text x="{x + 22}" y="104" font-family="{SANS}" font-size="19" font-weight="600" fill="{c['text']}">{label}</text>
+    <text x="{x + 22}" y="128" font-family="{SANS}" font-size="16" fill="{c['muted']}">{sub}</text>
   </g>"""
     desc = "; ".join(f"{b} {l} {s}" for b, l, s in tiles)
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200" role="img" aria-labelledby="title desc">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="900" height="150" role="img" aria-labelledby="title desc">
   <title id="title">Alyson AI at a glance</title>
   <desc id="desc">{desc}</desc>{body}
 </svg>

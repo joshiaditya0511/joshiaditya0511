@@ -1,12 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-labelledby="title desc">
   <title id="title">Aditya Joshi</title>
-  <desc id="desc">Product Manager by day. AI builder by habit. Product Manager at Revcloud, building Alyson AI. Illustration: website visitors flow through a traffic router to three landing page variants, and most traffic lands on the winning page.</desc>
+  <desc id="desc">Product Manager by day. AI builder by habit. A terminal card reads: whoami, product manager at Revcloud; now, building alyson.ai, which tests landing pages on live traffic.</desc>
   <style>
-    .winner { animation: glow 3.6s ease-in-out infinite; }
-    @keyframes glow { 0%, 100% { opacity: 1; } 50% { opacity: 0.82; } }
+    .line { animation: type-in 0.4s ease-out both; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    @keyframes type-in { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    @keyframes blink { 50% { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) {
-      .dot { display: none; }
-      .winner { animation: none; }
+      .line, .cursor { animation: none; }
     }
   </style>
 
@@ -16,66 +17,11 @@
   <text x="40" y="258" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="31" fill="#59636e">AI builder by habit.</text>
 
   <g>
-    <text x="600" y="159" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#59636e">visitors</text>
-    <path d="M600 175 L700 175" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-dasharray="4 5"/>
-    <path d="M780 175 C825 175 815 103 850 103" fill="none" stroke="#d0d7de" stroke-width="1.5"/><path d="M780 175 C825 175 815 175 850 175" fill="none" stroke="#1a7f37" stroke-width="2"/><path d="M780 175 C825 175 815 247 850 247" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-    
-      <circle class="dot" r="4.5" fill="#1a7f37" opacity="0">
-        <animateMotion dur="3.6s" begin="0s" repeatCount="indefinite" path="M600 175 L780 175 C825 175 815 175 850 175"/>
-        <animate attributeName="opacity" dur="3.6s" begin="0s" repeatCount="indefinite"
-                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
-      </circle>
-      <circle class="dot" r="4.5" fill="#bc4c00" opacity="0">
-        <animateMotion dur="3.6s" begin="0.6s" repeatCount="indefinite" path="M600 175 L780 175 C825 175 815 103 850 103"/>
-        <animate attributeName="opacity" dur="3.6s" begin="0.6s" repeatCount="indefinite"
-                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
-      </circle>
-      <circle class="dot" r="4.5" fill="#1a7f37" opacity="0">
-        <animateMotion dur="3.6s" begin="1.2s" repeatCount="indefinite" path="M600 175 L780 175 C825 175 815 175 850 175"/>
-        <animate attributeName="opacity" dur="3.6s" begin="1.2s" repeatCount="indefinite"
-                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
-      </circle>
-      <circle class="dot" r="4.5" fill="#bc4c00" opacity="0">
-        <animateMotion dur="3.6s" begin="1.8s" repeatCount="indefinite" path="M600 175 L780 175 C825 175 815 247 850 247"/>
-        <animate attributeName="opacity" dur="3.6s" begin="1.8s" repeatCount="indefinite"
-                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
-      </circle>
-      <circle class="dot" r="4.5" fill="#1a7f37" opacity="0">
-        <animateMotion dur="3.6s" begin="2.4s" repeatCount="indefinite" path="M600 175 L780 175 C825 175 815 175 850 175"/>
-        <animate attributeName="opacity" dur="3.6s" begin="2.4s" repeatCount="indefinite"
-                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
-      </circle>
-      <circle class="dot" r="4.5" fill="#1a7f37" opacity="0">
-        <animateMotion dur="3.6s" begin="3.0s" repeatCount="indefinite" path="M600 175 L780 175 C825 175 815 175 850 175"/>
-        <animate attributeName="opacity" dur="3.6s" begin="3.0s" repeatCount="indefinite"
-                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
-      </circle>
-    <rect x="700" y="150" width="80" height="50" rx="10" fill="#f6f8fa" stroke="#bc4c00" stroke-width="2"/>
-    <text x="740.0" y="180" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="600" fill="#bc4c00">router</text>
-    
-    <g class="">
-      <rect x="850" y="72" width="100" height="62" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
-      <rect x="862" y="84" width="44" height="7" rx="3.5" fill="#59636e" opacity="0.7"/>
-      <rect x="862" y="99" width="76" height="5" rx="2.5" fill="#d0d7de"/>
-      <rect x="862" y="110" width="60" height="5" rx="2.5" fill="#d0d7de"/>
-      <text x="938" y="126" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#59636e">A</text>
-      
-    </g>
-    <g class="winner">
-      <rect x="850" y="144" width="100" height="62" rx="8" fill="#dafbe1" stroke="#1a7f37" stroke-width="2.5"/>
-      <rect x="862" y="156" width="44" height="7" rx="3.5" fill="#59636e" opacity="0.7"/>
-      <rect x="862" y="171" width="76" height="5" rx="2.5" fill="#d0d7de"/>
-      <rect x="862" y="182" width="60" height="5" rx="2.5" fill="#d0d7de"/>
-      <text x="938" y="198" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#1a7f37">B</text>
-      <circle cx="950" cy="144" r="12" fill="#1a7f37"/><path d="M944 144 l4 4 l8 -8" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-    <g class="">
-      <rect x="850" y="216" width="100" height="62" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
-      <rect x="862" y="228" width="44" height="7" rx="3.5" fill="#59636e" opacity="0.7"/>
-      <rect x="862" y="243" width="76" height="5" rx="2.5" fill="#d0d7de"/>
-      <rect x="862" y="254" width="60" height="5" rx="2.5" fill="#d0d7de"/>
-      <text x="938" y="270" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#59636e">C</text>
-      
-    </g>
+    <rect x="575" y="56" width="385" height="238" rx="12" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+    <path d="M575 92 H960" stroke="#d0d7de" stroke-width="1.5"/>
+    <circle cx="595" cy="74" r="5.5" fill="#ff5f57"/><circle cx="613" cy="74" r="5.5" fill="#febc2e"/><circle cx="631" cy="74" r="5.5" fill="#28c840"/>
+    <text x="787.5" y="79" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#59636e">aditya@pune: ~</text>
+    <text class="line" style="animation-delay:0.30s" x="597" y="122" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16"><tspan fill="#bc4c00" font-weight="700">$ </tspan><tspan fill="#1f2328">whoami</tspan></text><text class="line" style="animation-delay:0.65s" x="597" y="152" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#59636e">product manager @ revcloud</text><text class="line" style="animation-delay:1.00s" x="597" y="182" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16"><tspan fill="#bc4c00" font-weight="700">$ </tspan><tspan fill="#1f2328">cat now.txt</tspan></text><text class="line" style="animation-delay:1.35s" x="597" y="212" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#59636e">building alyson.ai, which tests</text><text class="line" style="animation-delay:1.70s" x="597" y="242" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#59636e">landing pages on live traffic</text><text class="line" style="animation-delay:2.05s" x="597" y="272" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16"><tspan fill="#bc4c00" font-weight="700">$ </tspan><tspan fill="#1f2328"></tspan></text>
+    <rect class="cursor" x="617" y="258" width="9" height="18" fill="#bc4c00"/>
   </g>
 </svg>
