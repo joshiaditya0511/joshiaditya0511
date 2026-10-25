@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200" role="img" aria-labelledby="title desc">
+  <title id="title">Alyson AI at a glance</title>
+  <desc id="desc">400K+ visits routed by Alyson's router; $175K+ in revenue from internal lead gen; Jun '26 promoted to PM from Data Scientist</desc>
+  <g>
+    <rect x="0.0" y="10" width="280" height="180" rx="14" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+    <rect x="24.0" y="34" width="28" height="5" rx="2.5" fill="#bc4c00"/>
+    <text x="24.0" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="50" font-weight="700" fill="#1f2328">400K+</text>
+    <text x="24.0" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#1f2328">visits routed</text>
+    <text x="24.0" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" fill="#59636e">by Alyson's router</text>
+  </g>
+  <g>
+    <rect x="310.0" y="10" width="280" height="180" rx="14" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+    <rect x="334.0" y="34" width="28" height="5" rx="2.5" fill="#bc4c00"/>
+    <text x="334.0" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="50" font-weight="700" fill="#1f2328">$175K+</text>
+    <text x="334.0" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#1f2328">in revenue</text>
+    <text x="334.0" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" fill="#59636e">from internal lead gen</text>
+  </g>
+  <g>
+    <rect x="620.0" y="10" width="280" height="180" rx="14" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+    <rect x="644.0" y="34" width="28" height="5" rx="2.5" fill="#bc4c00"/>
+    <text x="644.0" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="50" font-weight="700" fill="#1f2328">Jun '26</text>
+    <text x="644.0" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#1f2328">promoted to PM</text>
+    <text x="644.0" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" fill="#59636e">from Data Scientist</text>
+  </g>
+</svg>

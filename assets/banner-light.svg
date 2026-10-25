@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-labelledby="title desc">
+  <title id="title">Aditya Joshi</title>
+  <desc id="desc">Product Manager by day. AI builder by habit. Product Manager at Revcloud, building Alyson AI. Illustration: website visitors flow through a traffic router to three landing page variants, and most traffic lands on the winning page.</desc>
+  <style>
+    .winner { animation: glow 3.6s ease-in-out infinite; }
+    @keyframes glow { 0%, 100% { opacity: 1; } 50% { opacity: 0.82; } }
+    @media (prefers-reduced-motion: reduce) {
+      .dot { display: none; }
+      .winner { animation: none; }
+    }
+  </style>
+
+  <text x="40" y="92" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="600" letter-spacing="2" fill="#bc4c00">PRODUCT MANAGER · REVCLOUD</text>
+  <text x="38" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="70" font-weight="700" fill="#1f2328">Aditya Joshi</text>
+  <text x="40" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="31" fill="#1f2328">Product Manager by day.</text>
+  <text x="40" y="258" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="31" fill="#59636e">AI builder by habit.</text>
+
+  <g>
+    <text x="600" y="159" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#59636e">visitors</text>
+    <path d="M600 175 L700 175" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-dasharray="4 5"/>
+    <path d="M780 175 C825 175 815 103 850 103" fill="none" stroke="#d0d7de" stroke-width="1.5"/><path d="M780 175 C825 175 815 175 850 175" fill="none" stroke="#1a7f37" stroke-width="2"/><path d="M780 175 C825 175 815 247 850 247" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+    
+      <circle class="dot" r="4.5" fill="#1a7f37" opacity="0">
+        <animateMotion dur="3.6s" begin="0s" repeatCount="indefinite" path="M600 175 L780 175 C825 175 815 175 850 175"/>
+        <animate attributeName="opacity" dur="3.6s" begin="0s" repeatCount="indefinite"
+                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
+      </circle>
+      <circle class="dot" r="4.5" fill="#bc4c00" opacity="0">
+        <animateMotion dur="3.6s" begin="0.6s" repeatCount="indefinite" path="M600 175 L780 175 C825 175 815 103 850 103"/>
+        <animate attributeName="opacity" dur="3.6s" begin="0.6s" repeatCount="indefinite"
+                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
+      </circle>
+      <circle class="dot" r="4.5" fill="#1a7f37" opacity="0">
+        <animateMotion dur="3.6s" begin="1.2s" repeatCount="indefinite" path="M600 175 L780 175 C825 175 815 175 850 175"/>
+        <animate attributeName="opacity" dur="3.6s" begin="1.2s" repeatCount="indefinite"
+                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
+      </circle>
+      <circle class="dot" r="4.5" fill="#bc4c00" opacity="0">
+        <animateMotion dur="3.6s" begin="1.8s" repeatCount="indefinite" path="M600 175 L780 175 C825 175 815 247 850 247"/>
+        <animate attributeName="opacity" dur="3.6s" begin="1.8s" repeatCount="indefinite"
+                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
+      </circle>
+      <circle class="dot" r="4.5" fill="#1a7f37" opacity="0">
+        <animateMotion dur="3.6s" begin="2.4s" repeatCount="indefinite" path="M600 175 L780 175 C825 175 815 175 850 175"/>
+        <animate attributeName="opacity" dur="3.6s" begin="2.4s" repeatCount="indefinite"
+                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
+      </circle>
+      <circle class="dot" r="4.5" fill="#1a7f37" opacity="0">
+        <animateMotion dur="3.6s" begin="3.0s" repeatCount="indefinite" path="M600 175 L780 175 C825 175 815 175 850 175"/>
+        <animate attributeName="opacity" dur="3.6s" begin="3.0s" repeatCount="indefinite"
+                 values="0;1;1;0" keyTimes="0;0.08;0.9;1"/>
+      </circle>
+    <rect x="700" y="150" width="80" height="50" rx="10" fill="#f6f8fa" stroke="#bc4c00" stroke-width="2"/>
+    <text x="740.0" y="180" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="600" fill="#bc4c00">router</text>
+    
+    <g class="">
+      <rect x="850" y="72" width="100" height="62" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+      <rect x="862" y="84" width="44" height="7" rx="3.5" fill="#59636e" opacity="0.7"/>
+      <rect x="862" y="99" width="76" height="5" rx="2.5" fill="#d0d7de"/>
+      <rect x="862" y="110" width="60" height="5" rx="2.5" fill="#d0d7de"/>
+      <text x="938" y="126" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#59636e">A</text>
+      
+    </g>
+    <g class="winner">
+      <rect x="850" y="144" width="100" height="62" rx="8" fill="#dafbe1" stroke="#1a7f37" stroke-width="2.5"/>
+      <rect x="862" y="156" width="44" height="7" rx="3.5" fill="#59636e" opacity="0.7"/>
+      <rect x="862" y="171" width="76" height="5" rx="2.5" fill="#d0d7de"/>
+      <rect x="862" y="182" width="60" height="5" rx="2.5" fill="#d0d7de"/>
+      <text x="938" y="198" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#1a7f37">B</text>
+      <circle cx="950" cy="144" r="12" fill="#1a7f37"/><path d="M944 144 l4 4 l8 -8" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g class="">
+      <rect x="850" y="216" width="100" height="62" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+      <rect x="862" y="228" width="44" height="7" rx="3.5" fill="#59636e" opacity="0.7"/>
+      <rect x="862" y="243" width="76" height="5" rx="2.5" fill="#d0d7de"/>
+      <rect x="862" y="254" width="60" height="5" rx="2.5" fill="#d0d7de"/>
+      <text x="938" y="270" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#59636e">C</text>
+      
+    </g>
+  </g>
+</svg>
